@@ -18,9 +18,13 @@ Jack Lu, Elena Sapelyuk
 
 
 # recursive abstraction
-  The recursive abstraction can go to the next intersection (point) in the maze
+  When I am asked to solve a maze,
+  
+  the recursive abstraction can go to the next legal point in the maze
+  
+        and determine a path from that point,
 
 	if there is no legal next point,
 
-	go back and try next available path from that intersection.
+	return to previous point and try next legal adjacent point available.
 
