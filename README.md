@@ -1,9 +1,8 @@
-# Maze
-
 ## personnel
 Jack Lu & Elena Sapelyuk
 
-# statement of problem
+## statement of problem
+
   Returns the boolean value of the statement "the maze is navigable, having a legal travel path 
   that is continuous from start point to existing treasure"
 
@@ -17,7 +16,7 @@ Jack Lu & Elena Sapelyuk
 	a path cannot go through the same point twice 
 
 
-# recursive abstraction
+## recursive abstraction
 
   	When I am asked to solve a maze,
   
@@ -29,7 +28,15 @@ Jack Lu & Elena Sapelyuk
 
 	return to previous point and try next legal adjacent point available.
 
-# pseudocode
+
+## base case
+	if current point is the end point
+	   return the solution 
+	if no more legal paths available
+	   return there is no solution
+
+
+## pseudocode
 
 	if current point is the end point
 	   return congrats! //base case 1
@@ -45,6 +52,8 @@ Jack Lu & Elena Sapelyuk
                	if there is a legal point to the west,
 	           recursively abstract from that point
              	else return to previous point & mark current point illegal
-	
-	
+
+## class(es), with fields and methods
+
+## version n wish list
 
