@@ -1,7 +1,7 @@
 # Maze
 
 ## personnel
-Jack Lu, Elena Sapelyuk
+Jack Lu & Elena Sapelyuk
 
 # statement of problem
   Returns the boolean value of the statement "the maze is navigable, having a legal travel path 
@@ -28,4 +28,23 @@ Jack Lu, Elena Sapelyuk
 	if there is no legal next point,
 
 	return to previous point and try next legal adjacent point available.
+
+# pseudocode
+
+	if current point is the end point
+	   return congrats! //base case 1
+	if else no more legal paths
+	   return nope //base case 2
+	else //recursive case
+		if there is a legal point to the north,
+		   recursively abstract from that point
+ 		if there is a legal point to the east,
+	 	   recursively abstract from that point
+ 		if there is a legal point to the south,
+	  	   recursively abstract from that point
+               	if there is a legal point to the west,
+	           recursively abstract from that point
+             	else return to previous point & mark current point illegal
+	
+	
 
