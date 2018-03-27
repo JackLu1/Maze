@@ -8,10 +8,15 @@
   
   legal means 
 	don't cross the walls
+
 	right angle turns only
+
 	a path cannot go through the same point twice 
+
 
 # recursive abstraction
   The recursive abstraction can go to the next intersection (point) in the maze
+
 	if there is no legal next point,
-		go back and try next available path from that intersection.
+
+	go back and try next available path from that intersection.
