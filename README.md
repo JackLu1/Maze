@@ -18,9 +18,10 @@ Jack Lu, Elena Sapelyuk
 
 
 # recursive abstraction
-  When I am asked to solve a maze,
+
+  	When I am asked to solve a maze,
   
-  the recursive abstraction can go to the next legal point in the maze
+	the recursive abstraction can go to the next legal point in the maze
   
         and determine a path from that point,
 
