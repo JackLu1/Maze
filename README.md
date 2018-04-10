@@ -54,6 +54,9 @@ Jack Lu & Elena Sapelyuk
              	else return to previous point & mark current point illegal
 
 ## class(es), with fields and methods
+- Holmes' Maze 
+- Maze Solver
+ 
 
 ## version n wish list
 
