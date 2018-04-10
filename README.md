@@ -20,9 +20,9 @@ Jack Lu & Elena Sapelyuk
 
   	When I am asked to solve a maze,
   
-	the recursive abstraction can go to the  // next legal point in the maze // (current issue, not sure how to resolve)
+	if the explorer is not on the treasure or the wall,
   
-        and determine a path from that point,
+        determine a path from that point,
 
 	if there is no legal next point,
 
