@@ -20,9 +20,9 @@ Jack Lu & Elena Sapelyuk
 
   	When I am asked to solve a maze,
   
-	if the explorer is not on the treasure or the wall,
+	if the explorer is not on the treasure or the wall
   
-        determine a path from that point,
+         determine a path from that point,
 
 	if there is no legal next point,
 
@@ -30,18 +30,18 @@ Jack Lu & Elena Sapelyuk
 
 
 ## base case
-	if current point is the end point
-	   return the solution 
-	if no more legal paths available
-	   return there is no solution
+	if explorer is on treasure
+	   return true
+	if explorer is on wall 
+	   return false
 
 
 ## pseudocode
 
-	if current point is the end point
-	   return congrats! //base case 1
-	if else no more legal paths
-	   return nope //base case 2
+	if explorer is on treasure
+	   return true //base case 1
+	if explorer is on wall
+	   return false //base case 2
 	else //recursive case
 		if there is a legal point to the north,
 		   recursively abstract from that point
