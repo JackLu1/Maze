@@ -134,6 +134,7 @@ public class UserOfMaze {
 	 * java UserOfMaze mazes/4cell_treasureWest.txt 0 3 25
 	 * <p>
 	 * Jack Lu = 47 lines
+	 * Elena Sapelyuk = 24 rows
 	 */
 	private static void displayerTest(Maze m) {
 		int step = 0;
