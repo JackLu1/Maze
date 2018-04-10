@@ -20,7 +20,7 @@ Jack Lu & Elena Sapelyuk
 
   	When I am asked to solve a maze,
   
-	the recursive abstraction can go to the next legal point in the maze
+	the recursive abstraction can go to the  // next legal point in the maze // (current issue, not sure how to resolve)
   
         and determine a path from that point,
 
