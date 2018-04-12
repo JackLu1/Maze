@@ -53,7 +53,13 @@ Jack Lu & Elena Sapelyuk
 
 ## class(es), with fields and methods
 - Holmes' Maze
-- Maze Solver
+- MazeSolver
+	- solver()
+- UserOfMazeSolver
 
 
 ## version n wish list
+
+## known bugs
+	none yet
+
