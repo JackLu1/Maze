@@ -12,8 +12,22 @@ public class MazeSolver {
      }
     
      public boolean solve(){
-	 System.out.println("booga booga");
+	 if (toSolve.explorerIsOnA() == 0){
+	     
+	 System.out.println("true              ");
+	     return true;
+	 }
+	 else if (toSolve.explorerIsOnA() == 1){
+	     
+	 System.out.println("false         ");
+	     return false;
+	 }
+	 else {
+	     System.out.println("recursion begins");
+	     
+	 
 	 return true;
+	 }
      }
 
 }
