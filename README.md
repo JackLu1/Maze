@@ -52,14 +52,13 @@ Jack Lu & Elena Sapelyuk
              	else return to previous point & mark current point illegal
 
 ## class(es), with fields and methods
-- Holmes' Maze
-- MazeSolver
+	- Holmes' Maze
+	- MazeSolver
 	- solver()
-- UserOfMazeSolver
+	- UserOfMazeSolver
 
 
 ## version n wish list
 
 ## known bugs
-	none yet
-
+The algorithm is incapable of solving cases where there are multiple adjacent rows of stepping stones, such as in steppingStonesEverywhere.txt on Piazza.	
