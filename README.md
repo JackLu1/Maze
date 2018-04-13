@@ -54,7 +54,8 @@ Jack Lu & Elena Sapelyuk
 ## class(es), with fields and methods
 	- Holmes' Maze
 	- MazeSolver
-	- solver()
+		- Integer array containing each vector direction. Used for convenient programming.
+		- Recursive solver() method.
 	- UserOfMazeSolver
 
 
