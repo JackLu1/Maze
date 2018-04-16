@@ -7,6 +7,7 @@ public class MazeSolver {
 
 	public Maze toSolve;
 	private int[] directions = new int[]{ Maze.EAST, Maze.SOUTH, Maze.WEST, Maze.NORTH, };
+	Displayer displayer = new Displayer(0);
 
 	public MazeSolver(Maze maze) {
 		toSolve = maze;
@@ -26,7 +27,9 @@ public class MazeSolver {
 		}
 		else {
 //			System.out.println("recursion");
+			
 			for (int i = 0; i < 4; i++){
+				displayer.atTopOfWindow(toSolve.toString());
 				Maze snapshot = new Maze(toSolve);
 				toSolve.dropA( Maze.WALL);
 //				System.out.println( toSolve);

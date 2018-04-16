@@ -60,6 +60,7 @@ Jack Lu & Elena Sapelyuk
 
 
 ## version n wish list
+- v1: use displayer 
 
 ## known bugs
 The algorithm is incapable of solving cases where there are multiple adjacent rows of stepping stones, such as in steppingStonesEverywhere.txt on Piazza.	
