@@ -64,3 +64,6 @@ Jack Lu & Elena Sapelyuk
 
 ## known bugs
 The algorithm is incapable of solving cases where there are multiple adjacent rows of stepping stones, such as in steppingStonesEverywhere.txt on Piazza.	
+
+## v1
+- Implemented the displayer into the maze solver.
